@@ -4,8 +4,6 @@ Assignment: #2
 Description: Port Scanner — A tool that scans a target machine for open network ports
 """
 
-# TODO: Import the required modules (Step ii)
-# socket, threading, sqlite3, os, platform, datetime
 import socket
 import threading
 import sqlite3
@@ -13,7 +11,6 @@ import os
 import platform
 import datetime
 
-# TODO: Print Python version and OS name (Step iii)
 import sys
 print(f"Python version: {sys.version}")
 print(f"Operating System: {platform.system()}")
